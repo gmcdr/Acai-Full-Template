@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 * {
     font-family: 'Poppins', sans-serif;
-    
+
 }
-body{
-    background-color: #FBFEFD;;
+
+body {
+    background-color: #FBFEFD;
+    ;
 }
 
 .itens {
@@ -15,15 +18,16 @@ body{
     text-transform: uppercase;
     color: #fff;
 }
-.navbar{
-    background: rgba(255, 255,255, .1);
+
+.navbar {
+    background: rgba(255, 255, 255, .1);
 }
 
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     padding-top: 3px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
     color: #ffbe00;
     font-size: 22px;
 }
@@ -34,9 +38,8 @@ body{
 }
 
 .home {
-    background: linear-gradient(
-#630287, #860a82, #9d0095);
-    
+    background: linear-gradient(#860a82, #9d0095);
+
 }
 
 .offcanvas-body {
@@ -58,12 +61,12 @@ body{
     color: #ffbe00;
     text-transform: uppercase;
     letter-spacing: 3px;
-    box-shadow: 0 2px 4px rgba(0,0,0,.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    
+
 }
 
 .products {
@@ -79,7 +82,8 @@ body{
     text-transform: uppercase;
     letter-spacing: 3px;
 }
-#title_home{
+
+#title_home {
     text-align: center;
     font-size: 35px;
     font-weight: 600;
@@ -87,7 +91,8 @@ body{
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-.yellow__title{
+
+.yellow__title {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
@@ -137,7 +142,7 @@ body{
 .cardzada .card img {
     border-radius: 10px;
     width: 80%;
-    
+
 }
 
 .btncomprar {
@@ -149,14 +154,14 @@ body{
     font-size: 20px;
     border-radius: 70px;
     padding-left: 10px;
-    padding-top:5px;
+    padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 10px;
     color: #000;
 
 }
 
-.btnhome{
+.btnhome {
     background: rgba(255, 255, 255, .3);
     backdrop-filter: blur(10px);
     text-decoration: none;
@@ -166,15 +171,16 @@ body{
     font-size: 20px;
     border-radius: 70px;
     padding-left: 10px;
-    padding-top:10px;
+    padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
     color: #ffbe00;
-    box-shadow: 0 2px 4px rgba(0,0,0,.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
     letter-spacing: 3px;
 
 }
-.btnhome1{
+
+.btnhome1 {
     background: rgba(255, 255, 255, .3);
     backdrop-filter: blur(10px);
     text-decoration: none;
@@ -184,11 +190,11 @@ body{
     font-size: 20px;
     border-radius: 70px;
     padding-left: 10px;
-    padding-top:10px;
+    padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
     color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
     letter-spacing: 3px;
 
 }
@@ -207,10 +213,12 @@ body{
 .footer p {
     color: #000;
 }
-.footer__content{
+
+.footer__content {
     text-align: justify;
 }
-.footer__title{
+
+.footer__title {
     text-align: justify;
 }
 
@@ -221,15 +229,15 @@ body{
 #banner {
     width: 100%;
     margin-top: 80px;
-    box-shadow: 0 2px 4px rgba(0,0,0,.3);
-    
-    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+
+
 }
 
-.banner2{
+.banner2 {
     width: 95%;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
 
 
@@ -243,7 +251,7 @@ body{
     color: #707070;
 }
 
-.text__home{
+.text__home {
     align-items: center;
     text-align: center;
     font-size: 18px;
@@ -251,11 +259,12 @@ body{
     margin-left: 70px;
     margin-right: 70px;
 }
-#subtitle_home{
+
+#subtitle_home {
     margin-top: 0;
     align-items: center;
     text-align: center;
-    font-weight:600;
+    font-weight: 600;
     padding-left: 20px;
     padding-right: 20px;
     text-transform: uppercase;
@@ -300,7 +309,7 @@ body{
     background: rgba(255, 255, 255, .3);
     backdrop-filter: blur(10px);
     transition: .5;
-   
+
 }
 
 .testimonial .cardzada .card p {
@@ -312,63 +321,204 @@ body{
     border-radius: 10px;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.icons{
+.icons {
     font-size: 35px;
     color: #ffd700;
 }
-iframe{
+
+iframe {
     border-radius: 15px;
 }
-.footer__content{
-display: inline-block;
-padding-left: 10px;
-color: #707070;
 
-}
-.footer__link{
-    list-style: none;
-    text-decoration: none;
-    color: #707070;
-}
-li {
-    list-style-type: none;
-  }
+
 
 .swiper {
     width: 250px;
     height: 250px;
     padding: 50px;
-    
-  }
 
-  .swiper-slide {
+}
+
+.swiper-slide {
     background-position: center;
     background-size: cover;
     width: 250px;
     height: 250px;
-    
-  }
 
-  .swiper-slide img {
+}
+
+.swiper-slide img {
     border-radius: 15px;
     display: block;
     width: 100%;
-  }
-  .txt__servicos{
-      font-size: 24px;
-      text-align: center;
-      letter-spacing: 2px;
-      color: #9f07a8;
-      
-  }
-  .subtitle__servicos{
+}
+
+.txt__servicos {
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #9f07a8;
+
+}
+
+.subtitle__servicos {
     font-size: 18px;
     text-align: center;
     letter-spacing: 2px;
     color: #9f07a8;
-    
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    #title_home {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #ffffff;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    .yellow__title {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        color: #ffd700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    #subtitle_home {
+        margin-top: 0;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #e0e0e0;
+        letter-spacing: 4px;
+    }
+
+    .text__home {
+        align-items: center;
+        text-align: center;
+        font-size: 16px;
+        color: #e0e0e0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner2 {
+        width: 100%;
+    }
+
+    .btnhome {
+        background: rgba(255, 255, 255, .3);
+        backdrop-filter: blur(10px);
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 16px;
+        border-radius: 70px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        color: #ffbe00;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+        letter-spacing: 3px;
+
+    }
+
+    .btnhome1 {
+        background: rgba(255, 255, 255, .3);
+        backdrop-filter: blur(10px);
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 16px;
+        border-radius: 70px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+        letter-spacing: 3px;
+        margin-left: 20px;
+
+    }
+
+    .titles {
+        text-align: center;
+        font-size: 28px;
+        color: #9f07a8;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .texts {
+        align-items: center;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+        color: #707070;
+    }
+
+    .swiper {
+        width: 200px;
+        height: 200px;
+        padding: 50px;
+
+    }
+
+    .txt__servicos {
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #9f07a8;
+
+    }
+
+    .subtitle__servicos {
+        font-size: 16px;
+        text-align: center;
+        color: #9f07a8;
+
+    }
+
+    .cardzada {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-repeat: no-repeat;
+        position: relative;
+        border-radius: 15px;
+        background: linear-gradient(#571770, #7f008d);
+    }
+
+    .testimonial .cardzada {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-repeat: no-repeat;
+        position: relative;
+        border-radius: 15px;
+    }
+
 }
